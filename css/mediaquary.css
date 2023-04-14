@@ -1,0 +1,864 @@
+/* .......akhbar university................... */
+
+@media (max-width: 1330px) {
+  .control-next {
+    left: 8rem;
+  }
+  .control-prev {
+    right: 8rem;
+  }
+  .news-info h2 a {
+    font-size: 0.9rem;
+  }
+
+  .news-info p a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 1264px) {
+  .control-next {
+    left: 5rem;
+  }
+  .control-prev {
+    right: 5rem;
+  }
+
+@media (max-width: 1180px) {
+  .control-next {
+    left: 4rem;
+  }
+  .control-prev {
+    right: 4rem;
+  }
+}
+
+@media (max-width: 1123px) {
+  .news-img {
+    width: 15.875rem;
+  }
+  .news-info h2 a {
+    font-size: 0.8rem;
+  }
+
+  .news-info p a {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1111px) {
+  .news-img {
+    width: 14.875rem;
+  }
+}
+
+
+
+@media (max-width: 1082px) {
+  #news-university {
+    display: none;
+  }
+
+  #second-slider {
+    display: block;
+  }
+  .news-img {
+    width: 16.875rem;
+  }
+
+  .news-info h2 a {
+    font-size: .9rem;
+  }
+
+  .news-info p a {
+    font-size: .9rem;
+  }
+
+
+}
+
+/* .........................end od akhbar university............ */
+
+
+
+
+
+
+
+
+/* ........................................rail atelaiea.............................. */
+
+
+@media (max-width:992px){
+  #second-info-slider ul li{
+    width: 700px;
+  }
+
+}
+
+@media (max-width:900px){
+  #second-info-slider ul li{
+    width: 600px;
+  }
+
+}
+
+
+
+
+@media (max-width:800px){
+  #second-info-slider{
+    display: none;
+  }
+
+  #first-info-slider{
+    display: block;
+  }
+
+  #first-info-slider ul li{
+    width: 600px;
+  }
+
+
+}
+
+/* ........................................end of rail atelaiea.............................. */
+
+
+
+
+
+@media (max-width: 992px) {
+  .footer-container {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+}
+/* .........................header....................... */
+@media (max-width: 1240px) {
+  .header-bottom {
+    justify-content: space-between;
+  }
+
+  .header-span {
+    font-size: 0.9rem;
+    margin-right: -0.5rem;
+  }
+}
+
+@media (max-width: 1020px) {
+  .header-bottom-menu-item-right {
+    display: none;
+  }
+
+  .header-top {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 7rem;
+  }
+
+  .header-bottom {
+    margin-top: 4.1rem;
+    transition: all 0.5s ease-in-out;
+    z-index: 1000;
+  }
+
+  .header-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .logo-info p {
+    font-size: 0.9rem;
+  }
+
+  .house {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: inline-block;
+  }
+
+  #navigation {
+    width: 100%;
+    left: 0;
+    height: 100%;
+    overflow-y: scroll;
+    padding-bottom: 10rem;
+    transition: all 0.5s ease-in-out;
+    z-index: 100;
+  }
+  #navigation.slidedown {
+    top: 65px;
+  }
+ 
+
+  .one:hover .inside-li-first {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .ul-show-one {
+    display: block;
+    width: 100%;
+  }
+}
+
+
+
+
+
+/* ..........circle numbers......... */
+
+ @media (max-width: 1020px) {
+  .kabir-university-container {
+    grid-template-columns: repeat(2, auto);
+    gap: 1rem 28rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .kabir-university-container {
+    grid-template-columns: auto;
+    gap: 1rem;
+  }
+} 
+
+/* ..........end of circle numbers......... */
+
+
+/* .....................cards............... */
+@media (max-width: 1025px) {
+  .first-four-card {
+    grid-template-columns: auto auto;
+    gap: 10rem;
+  }
+  .second-four-card {
+    grid-template-columns: auto auto;
+    gap: 10rem;
+  }
+}
+@media (max-width: 767px) {
+  .first-four-card {
+    grid-template-columns: auto;
+  }
+  .second-four-card {
+    grid-template-columns: auto;
+  }
+  .calender-card{
+    width: 40rem;
+    height: 50rem;
+  }
+  /* .calender-card-logo span{
+    width: 40rem;
+    height: 40rem;
+  } */
+}
+
+
+/* ...............end of cards................... */
+
+/* ................cards of conference..... */
+
+@media (max-width: 1100px) {
+  .conference-cards-container {
+    grid-template-columns: auto auto;
+  }
+
+  .conference-card-container:last-child {
+    grid-column: 1/3;
+  }
+
+  .conference-card{
+    width: 35vw;
+  }
+  .conference-card-title{
+    width: 35vw;
+  }
+  .conference-card-img img{
+    width: 35vw;
+  }
+}
+
+@media (max-width: 992px) {
+  .conference-cards-container {
+    grid-template-columns: auto;
+    
+  }
+  .conference-card-container:last-child {
+    grid-column: 1/2;
+  }
+
+  .conference-card{
+    width: 40vw;
+  }
+  .conference-card-title{
+    width: 40vw;
+  }
+  .conference-card-img img{
+    width: 40vw;
+  }
+}
+@media (max-width: 700px) {
+
+  .conference-card{
+    width: 50vw;
+  }
+  .conference-card-title{
+    width: 50vw;
+  }
+  .conference-card-img img{
+    width: 50vw;
+  }
+}
+
+@media (max-width:690px){
+  .conference-card{
+    width: 100vw;
+  }
+  .conference-card-title{
+    width: 100vw;
+  }
+  .conference-card-img img{
+    width: 100vw;
+  }
+  .conference-container h4 {
+    font-size: 3rem;
+  }
+
+}
+
+/*............. end of cards of conference.......... */
+
+
+
+
+
+/* ..............inventions.................. */
+
+
+@media (max-width:992px){
+  .inventions-item li{
+    width: 45rem;
+  }
+}
+
+
+@media (max-width:900px){
+  .inventions-item li{
+    width: 40rem;
+  }
+}
+
+@media (max-width:840px){
+  .inventions-item li{
+    width: 35rem;
+  }
+}
+
+@media (max-width:800px){
+
+  #invention-second{
+    display: none;
+  }
+
+  #inventions-item-second{
+    display: block;
+    height: 10rem;
+  }
+
+}
+
+
+
+
+
+
+/* ..............end of inventions.................... */
+
+
+
+@media (max-width: 690px) {
+
+  .informations-container{
+    width: 230%;
+  }
+  .calender{
+    width: 230%;
+  }
+  .inventions-container {
+    width: 230%;
+  }
+
+  .slider{
+    width: 230%;
+  }
+  .akhbar-university{
+    width: 230%;
+  }
+  .conference-container{
+    width: 230%;
+  }
+  .kabir-university{
+    width: 230%;
+  }
+  .footer{
+    width: 230%;
+  }
+
+ 
+}
+
+
+
+/* ............control-next-second */
+@media (max-width: 1254px) { 
+  .control-next-second{
+    left: 10%;
+  }
+  .control-prev-second{
+    right: 10%;
+  }
+}
+@media (max-width: 1152px) { 
+  .control-next-second{
+    left: 6%;
+  }
+  .control-prev-second{
+    right: 6%;
+  }
+}
+@media (max-width: 1027px) { 
+  .control-next-second{
+    left: 3%;
+  }
+  .control-prev-second{
+    right: 3%;
+  }
+}
+@media (max-width: 752px) { 
+  .control-next-second{
+    left: 1%;
+  }
+  .control-prev-second{
+    right: 1%;
+  }
+}
+/* end of control-next-second */
+
+
+/* ....control-next-third....... */
+@media (max-width:1450px){
+  .control-next-third{
+    left: 14%;
+  }
+  .control-prev-third{
+    right: 14%;
+  }
+}
+@media (max-width:1265px){
+  .control-next-third{
+    left: 10%;
+  }
+  .control-prev-third{
+    right: 10%;
+  }
+}
+@media (max-width:1140px){
+  .control-next-third{
+    left: 4%;
+  }
+  .control-prev-third{
+    right: 4%;
+  }
+}
+@media (max-width:724px){
+  .control-next-third{
+    left: 1%;
+  }
+  .control-prev-third{
+    right: 1%;
+  }
+}
+/* ....end of control-next-third....... */
+
+
+
+/* ..........first info slider.......... */
+
+@media (max-width:690px){
+  #first-info-slider ul li{
+    width: 60rem;
+  }
+}
+
+@media (max-width:470px){
+  #first-info-slider ul li{
+    width: 50rem;
+  }
+}
+
+@media (max-width:400px){
+  #first-info-slider ul li{
+    width: 40rem;
+  }
+}
+
+@media (max-width:330px){
+  #first-info-slider ul li{
+    width: 34rem;
+  }
+}
+/* ........end first info slider */
+
+
+/* ......hamburger menu........... */
+@media (max-width:690px){
+  #navigation{
+    height: 219vh;
+  }
+  #navigation.slidedown{
+    height: 219vh;
+  }
+  .s-blue{
+    font-size: 1.5rem;
+  }
+
+  .plus-line{
+    width: 150%;
+    height: .4rem;
+  }
+
+  .child li a{
+    font-size: 1.5rem;
+  }
+
+  .child li .a-green{
+    margin-bottom: 1rem;
+  }
+
+  .child li{
+    margin-bottom: 1rem;
+  }
+}
+/* ......end of hamburger menu........... */
+
+
+/* ..............green circle...... */
+
+@media (max-width:690px){
+  .number-logo{
+    width: 16rem;
+    height: 16rem;
+  }
+  .number-logo span {
+    font-size: 3rem;
+  }
+  .number-logo-container {
+    width: 17.5rem;
+    text-align: center;
+  }
+  .number-info span { 
+  font-size: 2rem;
+  }
+
+  .kabir-university h2 {
+    font-size: 2rem;
+  }
+}
+
+/* .......footer..... */
+
+@media (max-width:942px){
+  .footer-bottom-container{
+    gap: 25rem;
+  }
+}
+
+@media (max-width:690px){
+  .footer-right-list li a{
+    font-size: 1.5rem;
+  }
+  .footer-middle-list li a{
+    font-size: 1.5rem;
+  }
+  .footer-left-list li a{
+    font-size: 1.5rem;
+  }
+
+  .footer-right-list li {
+    margin-bottom: .9rem;
+  }
+  .footer-middle-list li {
+    margin-bottom: .9rem;
+  }
+  .footer-left-list li {
+    margin-bottom: .9rem;
+  }
+
+
+  .footer-right-topic {
+    font-size: 2.2rem;
+  }
+  .footer-middle-topic {
+    font-size: 2.2rem;
+  }
+  .footer-left-topic {
+    font-size: 2.2rem;
+  }
+  .footer-bottom-container{
+    gap: 20rem;
+  }
+  .footer-bottom-logo{
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .footer-bottom-logo span i {
+    font-size: 3.4rem;
+  }
+
+  .footer-bottom-text span{
+    font-size: 2rem;
+  }
+}
+
+/* ..........calender........ */
+
+@media (max-width:690px){
+  .green{
+    font-size: 1.5rem;
+  }
+  .calender-expalin p{
+    font-size: 1.5rem;
+  }
+}
+
+/* ........news-second-university */
+
+@media (max-width:690px){
+  .news-university{
+    grid-template-columns: repeat(15,600px);
+  }
+  #news-university-second{
+    height: 40rem;
+  }
+
+  .news-img img{
+    width: 222%;
+    height: 29rem;
+  }
+
+  .news-info{
+   height: 12rem;
+   padding: 1rem;
+  }
+
+  .news-btn-container{
+    margin-top: 2rem;
+  }
+
+
+  .news-info span{
+   font-size: 1.2rem;
+  }
+  .news-info h2 a{
+   font-size: 1.5rem;
+   line-height: 4.5rem;
+  }
+  .news-info p a{
+   font-size: 1.5rem;
+  }
+
+  .news-info p{
+    -webkit-line-clamp:10;
+  }
+
+  .informations-container {
+    margin-top: 5rem;
+  }
+}
+
+/* ......control-next.............. */
+
+@media (max-width:690px){
+ 
+  .control-next{
+    left: -35rem;
+  }
+  .control-prev {
+    right: 18rem;
+  }
+}
+
+@media (max-width:640px){
+ 
+  .control-next{
+    left: -32rem;
+  }
+  .control-prev {
+    right: 18rem;
+  }
+}
+
+@media (max-width:612px){
+ 
+  .control-next{
+    left: -30rem;
+  }
+  .control-prev {
+    right: 17rem;
+  }
+}
+
+@media (max-width:561px){
+ 
+  .control-next{
+    left: -29rem;
+  }
+  .control-prev {
+    right: 15rem;
+  }
+}
+
+@media (max-width:541px){
+ 
+  .control-next{
+    left: -27rem;
+  }
+  .control-prev {
+    right: 15rem;
+  }
+}
+
+@media (max-width:516px){
+ 
+  .control-next{
+    left: -27rem;
+  }
+  .control-prev {
+    right: 14rem;
+  }
+}
+
+@media (max-width:498px){
+ 
+  .control-next{
+    left: -28rem;
+  }
+  .control-prev {
+    right: 12rem;
+  }
+}
+
+@media (max-width:483px){
+ 
+  .control-next{
+    left: -27rem;
+  }
+  .control-prev {
+    right: 11rem;
+  }
+}
+
+@media (max-width:483px){
+ 
+  .control-next{
+    left: -27rem;
+  }
+  .control-prev {
+    right: 11rem;
+  }
+}
+
+@media (max-width:462px){
+ 
+  .control-next{
+    left: -28rem;
+  }
+  .control-prev {
+    right: 8rem;
+  }
+}
+
+@media (max-width:432px){
+ 
+  .control-next{
+    left: -27rem;
+  }
+  .control-prev {
+    right: 7rem;
+  }
+}
+
+@media (max-width:411px){
+  .control-next{
+    left: -27rem;
+  }
+  .control-prev {
+    right: 5.5rem;
+  }
+}
+
+@media (max-width:391px){
+  .control-next{
+    left: -27rem;
+  }
+  .control-prev {
+    right: 3.5rem;
+  }
+}
+
+@media (max-width:361px){
+  .control-next{
+    left: -26rem;
+  }
+  .control-prev {
+    right: 2.5rem;
+  }
+}
+
+@media (max-width:343px){
+  .control-next{
+    left: -25rem;
+  }
+  .control-prev {
+    right: 1.5rem;
+  }
+}
+
+@media (max-width:322px){
+  .control-next{
+    left: -24.5rem;
+  }
+  .control-prev {
+    right: 1rem;
+  }
+}
+
+@media (max-width:309px){
+  .control-next{
+    left: -24rem;
+  }
+  .control-prev {
+    right: .1rem;
+  }
+}
+
+@media (max-width:309px){
+  .control-next{
+    left: -22.5rem;
+  }
+  .control-prev {
+    right: .1rem;
+  }
+}
